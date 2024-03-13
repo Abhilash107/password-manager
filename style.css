@@ -1,0 +1,86 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family:sans-serif;        
+    }
+
+    nav{
+        background-color: rgb(175, 171, 171);
+        width: 100hb;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        margin:  0 15px;
+
+    }
+    .logo{
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: rgb(67, 91, 111);
+    }
+
+    ul{
+        display: flex;
+        list-style-type: none;
+        margin:  0 15px;
+    }
+
+    ul li{
+        margin:  0 15px;
+        list-style-type: none;
+
+    }
+
+    ul li:hover{
+        color: white;
+        cursor: pointer;
+
+        
+
+       
+
+    }
+
+    table{
+        border-collapse: collapse;
+    }
+
+    table, td,th{
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;
+           
+    }
+
+    .container{
+        max-width: 75vw;
+        margin: 25px auto;
+
+    }
+
+h1 , h2 , h3{
+    margin:20px;
+}
+.btn{
+    padding: 3px 10px;
+    background: black;
+    color:white;
+    font-weight: 500;
+    border: 1px soild white;
+    border-radius: 5px;
+    margin: 10px  0px;
+    cursor: pointer;
+
+}
+form{
+    line-height: 1.3;
+}
+
+
+
+ 
